@@ -16,7 +16,9 @@ public class PlayerControlEcco : MonoBehaviour
     public float rotateSpeedN = 1f;
     public float rotateSpeedF = 2f;
     private bool moving = false;
+    private bool inAir = false;
     private bool rotating;
+    Vector2 currentvelocity;
     private float facingLocation, nextLocation, checkLocation, previousLocation;
     [Range(0, .3f)] [SerializeField] private float moveSmooth = .22f;
     private Vector3 velocityreference = Vector3.zero;
@@ -31,9 +33,8 @@ public class PlayerControlEcco : MonoBehaviour
     void Update()
     {
         checkSpeed();
-        movement.x = Input.GetAxisRaw("Horizontal") * swimSpeed;
-        movement.y = Input.GetAxisRaw("Vertical") * swimSpeed;
-        
+        movementInput();
+        testGrav();
     }
 
     void FixedUpdate()
@@ -47,6 +48,15 @@ public class PlayerControlEcco : MonoBehaviour
         { 
         //faceCheck();
         swimNormal();
+        }
+    }
+
+    void movementInput()
+    {
+        if (!inAir)
+        {
+            movement.x = Input.GetAxisRaw("Horizontal") * swimSpeed;
+            movement.y = Input.GetAxisRaw("Vertical") * swimSpeed;
         }
     }
 
@@ -86,7 +96,7 @@ public class PlayerControlEcco : MonoBehaviour
             espritecontrol.goIdle();
         }
         else { espritecontrol.movingAn(); }
-        if (!rotating)
+        if (!rotating && !inAir)
         {
             Vector3 targetspeed = new Vector2(movement.x, movement.y);
             //eccobody.velocity = Vector3.SmoothDamp(eccobody.velocity, targetspeed, ref velocityreference, moveSmooth);
@@ -158,5 +168,48 @@ public class PlayerControlEcco : MonoBehaviour
     public void doneRotating()
     {
         rotating = false;
+    }
+
+    void testGrav()
+    {
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            disableGravity();
+        }
+        if(Input.GetKeyDown(KeyCode.W))
+        {
+            enableGravity();
+        }
+    }
+
+    public void enableGravity()
+    {
+        
+        currentvelocity = eccobody.velocity;
+        eccobody.drag = 0;
+        eccobody.angularDrag = 0;
+        eccobody.gravityScale = 1;
+        inAir = true;
+        eccobody.AddForce(checkVelocity(), ForceMode2D.Force);
+    }
+
+    public void disableGravity()
+    {
+        eccobody.drag = 5;
+        eccobody.angularDrag = 9;
+        eccobody.gravityScale = 0;
+        inAir = false;
+    }
+
+    Vector2 checkVelocity()
+    {
+        if (currentvelocity.x <0)
+        {
+            return new Vector2(-100, 200);
+        }
+        else
+        {
+            return new Vector2(100, 200);
+        }
     }
 }
