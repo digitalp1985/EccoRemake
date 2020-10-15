@@ -75,7 +75,11 @@ MonoBehaviour:
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   controlID: 60
+=======
+  controlID: 41
+>>>>>>> Stashed changes
 =======
   controlID: 41
 >>>>>>> Stashed changes
@@ -131,7 +135,11 @@ MonoBehaviour:
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   controlID: 59
+=======
+  controlID: 66
+>>>>>>> Stashed changes
 =======
   controlID: 66
 >>>>>>> Stashed changes
@@ -183,7 +191,11 @@ MonoBehaviour:
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   controlID: 58
+=======
+  controlID: 65
+>>>>>>> Stashed changes
 =======
   controlID: 65
 >>>>>>> Stashed changes
@@ -235,8 +247,13 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     width: 1536
     height: 781
+=======
+    width: 1920
+    height: 997
+>>>>>>> Stashed changes
 =======
     width: 1920
     height: 997
@@ -557,15 +574,21 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     scrollPos: {x: 0, y: 159}
     m_SelectedIDs: 70390000
     m_LastClickedID: 14704
     m_ExpandedIDs: 0000000074440000
 =======
+=======
+>>>>>>> Stashed changes
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 1e3f0000
     m_LastClickedID: 16158
     m_ExpandedIDs: 00000000703a00007e3a00001c3f00001e3f000000ca9a3b
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -595,7 +618,11 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_ExpandedIDs: 0000000074440000
+=======
+    m_ExpandedIDs: 00000000703a0000
+>>>>>>> Stashed changes
 =======
     m_ExpandedIDs: 00000000703a0000
 >>>>>>> Stashed changes
@@ -722,9 +749,15 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: 4accffff
+=======
+      m_SelectedIDs: 34f4ffff
+      m_LastClickedID: -3020
+      m_ExpandedIDs: c8f4ffff68fbffffda370000ec3700000238000042380000463800008238000088380000
+>>>>>>> Stashed changes
 =======
       m_SelectedIDs: 34f4ffff
       m_LastClickedID: -3020
@@ -790,9 +823,15 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_Target: {x: 1.123312, y: 13.913806, z: -3.8554688}
     speed: 2
     m_Value: {x: 1.123312, y: 13.913806, z: -3.8554688}
+=======
+    m_Target: {x: -15.701772, y: 19.498756, z: -8.7885895}
+    speed: 2
+    m_Value: {x: -15.701772, y: 19.498756, z: -8.7885895}
+>>>>>>> Stashed changes
 =======
     m_Target: {x: -15.701772, y: 19.498756, z: -8.7885895}
     speed: 2
@@ -848,9 +887,15 @@ MonoBehaviour:
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_Target: 19.309233
     speed: 2
     m_Value: 19.309233
+=======
+    m_Target: 21.264042
+    speed: 2
+    m_Value: 21.264042
+>>>>>>> Stashed changes
 =======
     m_Target: 21.264042
     speed: 2
