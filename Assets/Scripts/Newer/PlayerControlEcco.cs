@@ -210,14 +210,17 @@ public class PlayerControlEcco : MonoBehaviour
     {
         if (currentvelocity.x < -1.5f)
         {
+            
             return new Vector2(-50, 100);
         }
         if (currentvelocity.x > 1.5f)
         {
+            
             return new Vector2(50, 100);
         }
         else
         {
+            
             return new Vector2(0, 100);
         }
     }
