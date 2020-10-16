@@ -182,6 +182,11 @@ public class PlayerControlEcco : MonoBehaviour
         }
     }
 
+    public bool isJumping()
+    {
+        return inAir;
+    }
+
     public void enableGravity()
     {
         
@@ -203,13 +208,17 @@ public class PlayerControlEcco : MonoBehaviour
 
     Vector2 checkVelocity()
     {
-        if (currentvelocity.x <0)
+        if (currentvelocity.x < 0)
         {
             return new Vector2(-100, 200);
         }
-        else
+        if (currentvelocity.x > 0)
         {
             return new Vector2(100, 200);
+        }
+        else
+        {
+            return new Vector2(0, 200);
         }
     }
 }
