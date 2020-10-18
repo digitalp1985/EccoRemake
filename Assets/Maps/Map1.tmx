@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" infinite="1" nextlayerid="5" nextobjectid="1">
+ <tileset firstgid="1" name="FG1" tilewidth="32" tileheight="32" tilecount="70" columns="10">
+  <image source="../Sprites/ECCO - The Tides of Time (E)_000.bmp" trans="000048" width="320" height="240"/>
+ </tileset>
+ <tileset firstgid="71" name="FG2" tilewidth="32" tileheight="32" tilecount="70" columns="10">
+  <image source="../Sprites/ECCO - The Tides of Time (E)_002.bmp" trans="000048" width="320" height="240"/>
+ </tileset>
+ <tileset firstgid="141" name="BG1" tilewidth="32" tileheight="32" tilecount="70" columns="10">
+  <image source="../Sprites/ECCO - The Tides of Time (E)_014.bmp" width="320" height="240"/>
+ </tileset>
+ <imagelayer id="4" name="Image Layer 1">
+  <image source="../Sprites/ECCO - The Tides of Time (E)_014.bmp" width="320" height="240"/>
+ </imagelayer>
+ <layer id="1" name="Foreground" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   <chunk x="-16" y="0" width="16" height="16">
+   eJzty0dSQlEAAMF/RXKUnESJCkpUQEDCoekTvGLDjqnq5UTRY4oRJ0GSFGkyZMmRD/wFirxQokyFKjXqNAJ/kxZtOrzS5Y13evQD/4AhI8Z88MmEKV98B/4ZcxYsWbHmh182bAP/jj/2HDjyz4kzF66B/9mze7oB+h4Z5w==
+  </chunk>
+   <chunk x="0" y="0" width="16" height="16">
+   eJztzetOAQAAgFFv4pJsldSWLmzl1gt0w9aF2hSxhcpWUrYQPbXzCDZ/fdv5/QUCy3XGORdcckWREmWChAgTYY0o68S45oZb7qhQ5Z4HNthkizjbJNhhlxqPPFGnwTNNWuyRZJ8DDjkiRZoX2nTo8sob7/Q45oQMWXLkKXDKB5/0+WLANz8MF/j/MmLMhD+mzPhf4L9q1TLNARxGHnE=
+  </chunk>
+   <chunk x="16" y="0" width="16" height="16">
+   eJxjYKAMqAOxBhJNKjAEYiMkmlRgDcQ2SDSpwBWI3ZBocu03BmITCuy3BWI7MvSPglFACQAAJBAFTQ==
+  </chunk>
+  </data>
+ </layer>
+</map>
