@@ -18,6 +18,8 @@ public class PlayerControlEcco : MonoBehaviour
     private bool moving = false;
     private bool inAir = false;
     private bool rotating;
+    private bool jumping = false;
+    private int jumpFace = 0;
     Vector2 currentvelocity;
     private float facingLocation, nextLocation, checkLocation, previousLocation;
     [Range(0, .3f)] [SerializeField] private float moveSmooth = .22f;
@@ -35,6 +37,7 @@ public class PlayerControlEcco : MonoBehaviour
         checkSpeed();
         movementInput();
         testGrav();
+        checkPeak();
     }
 
     void FixedUpdate()
@@ -109,7 +112,7 @@ public class PlayerControlEcco : MonoBehaviour
     {
         
 
-        if (movement != Vector2.zero && rotating == false)
+        if (movement != Vector2.zero && rotating == false && !inAir)
         {
             
 
@@ -195,7 +198,9 @@ public class PlayerControlEcco : MonoBehaviour
         eccobody.angularDrag = 0;
         eccobody.gravityScale = 1;
         inAir = true;
+        jumping = true;
         eccobody.AddForce(checkVelocity(), ForceMode2D.Force);
+        
     }
 
     public void disableGravity()
@@ -203,25 +208,65 @@ public class PlayerControlEcco : MonoBehaviour
         eccobody.drag = 5;
         eccobody.angularDrag = 9;
         eccobody.gravityScale = 0;
+        movement = Vector2.zero;
+        facingLocation = nextLocation;
         inAir = false;
+        espritecontrol.endJump();
     }
 
     Vector2 checkVelocity()
     {
         if (currentvelocity.x < -1.5f)
         {
-            
+            jumpFace = 1;
+            espritecontrol.startJump(jumpFace);
             return new Vector2(-50, 100);
         }
         if (currentvelocity.x > 1.5f)
         {
-            
+            jumpFace = 3;
+            espritecontrol.startJump(jumpFace);
             return new Vector2(50, 100);
         }
         else
         {
-            
+            jumpFace = 2;
+            espritecontrol.startJump(jumpFace);
             return new Vector2(0, 100);
         }
+
     }
+
+    void checkPeak()
+    {
+        
+        if (inAir && eccobody.velocity.y < 0.00001)
+        {
+            switch (jumpFace)
+            {
+                case 1:
+                    nextLocation = 4;
+                    previousLocation = facingLocation;
+                    checkLocation = nextLocation;
+                    
+                    espritecontrol.midJump();     
+                    break;
+               case 2:
+                    nextLocation = 3;
+                    previousLocation = facingLocation;
+                    checkLocation = nextLocation;
+                    
+                    espritecontrol.midJump();
+                    break;
+               case 3:
+                    nextLocation = 2;
+                    previousLocation = facingLocation;
+                    checkLocation = nextLocation;
+                    
+                    espritecontrol.midJump();
+                    break;
+            }
+        }
+    }
+    
 }

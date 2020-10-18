@@ -9,6 +9,7 @@ public class EccoSpriteController : MonoBehaviour
     private Animator animator;
     private float source, destination;
     private bool isRotating;
+    private int currentJump;
 
     void Awake()
     {
@@ -162,7 +163,61 @@ public class EccoSpriteController : MonoBehaviour
         }
     }
 
-    
+    public void startJump(int input)
+    {
+        currentJump = input;
+        Debug.Log("Jump position is " + input);
+       
+            switch (input)
+            {
+                case 1:
+                    animator.SetFloat("JumpFace", 0f);
+                    animator.SetBool("Jumping", true);
+                    
+                    break;
+                case 2:
+                    animator.SetFloat("JumpFace", 0.5f);
+                    animator.SetBool("Jumping", true);
+                    
+                    break;
+                    
+                case 3:
+                    animator.SetFloat("JumpFace", 1f);
+                    animator.SetBool("Jumping", true);
+                    
+                    break;
+
+            }
+        
+    }
+
+    public void midJump()
+    {
+        animator.SetTrigger("Jumped");
+        switch (currentJump)
+        {
+            case 1:
+                animator.SetFloat("CurrentFace", 4);
+                animator.SetFloat("StopRotation", 4);
+                break;
+            case 2:
+                animator.SetFloat("CurrentFace", 3);
+                animator.SetFloat("StopRotation", 3);
+                break;
+
+            case 3:
+                animator.SetFloat("CurrentFace", 2);
+                animator.SetFloat("StopRotation", 2);
+                break;
+
+        }
+    }
+
+    public void endJump()
+    {
+        animator.SetTrigger("Landed");
+        animator.SetBool("Jumping", false);
+    }
 
     public void doneAnimating()
     {
