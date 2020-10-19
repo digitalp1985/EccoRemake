@@ -4073,7 +4073,7 @@ MonoBehaviour:
   rotateSpeedN: 5
   rotateSpeedF: 7
   landForce: 20
-  angleDrag: 9
+  angleDrag: 7
   linDrag: 5
   moveSmooth: 0
 --- !u!1 &2000791165
