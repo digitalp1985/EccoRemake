@@ -15,6 +15,9 @@ public class PlayerControlEcco : MonoBehaviour
     public float swimAnimSpeedF = 2f;
     public float rotateSpeedN = 1f;
     public float rotateSpeedF = 2f;
+    public float landForce = 50f;
+    public float angleDrag = 9;
+    public float linDrag = 5;
     private bool moving = false;
     private bool inAir = false;
     private bool rotating;
@@ -97,12 +100,13 @@ public class PlayerControlEcco : MonoBehaviour
         if (movement == Vector2.zero)
         {
             espritecontrol.goIdle();
+            rotating = false;
         }
         else { espritecontrol.movingAn(); }
         if (!rotating && !inAir)
         {
             Vector3 targetspeed = new Vector2(movement.x, movement.y);
-            //eccobody.velocity = Vector3.SmoothDamp(eccobody.velocity, targetspeed, ref velocityreference, moveSmooth);
+            
             eccobody.AddForce(targetspeed);
         }
         }
@@ -150,7 +154,7 @@ public class PlayerControlEcco : MonoBehaviour
             }
             if (nextLocation != checkLocation)
             {
-                Debug.Log("Next Location " + nextLocation);
+                
                 rotating = true;
                 previousLocation = facingLocation;
                 checkLocation = nextLocation;
@@ -205,12 +209,35 @@ public class PlayerControlEcco : MonoBehaviour
 
     public void disableGravity()
     {
-        eccobody.drag = 5;
-        eccobody.angularDrag = 9;
+        Vector2 landingForce = new Vector2(0,0);
+        eccobody.drag = linDrag;
+        eccobody.angularDrag = angleDrag;
         eccobody.gravityScale = 0;
-        movement = Vector2.zero;
+        rotating = false;
         facingLocation = nextLocation;
-        inAir = false;
+        switch (jumpFace)
+        {
+            case 1:
+                Debug.Log("left force ");
+                landingForce.y = landForce * -1;
+                landingForce.x = landForce * -2 ;
+                eccobody.AddRelativeForce(landingForce);
+                break;
+            case 2:
+                Debug.Log("down force ");
+                landingForce.y = landForce * -2;
+                eccobody.AddRelativeForce(landingForce);
+                break;
+            case 3:
+                Debug.Log("right force ");
+                landingForce.y = landForce * -1;
+                landingForce.x = landForce * 2;
+                eccobody.AddRelativeForce(landingForce);
+                break;
+        }
+
+
+                inAir = false;
         espritecontrol.endJump();
     }
 
@@ -245,7 +272,7 @@ public class PlayerControlEcco : MonoBehaviour
             switch (jumpFace)
             {
                 case 1:
-                    nextLocation = 4;
+                    nextLocation = 5;
                     previousLocation = facingLocation;
                     checkLocation = nextLocation;
                     
@@ -259,7 +286,7 @@ public class PlayerControlEcco : MonoBehaviour
                     espritecontrol.midJump();
                     break;
                case 3:
-                    nextLocation = 2;
+                    nextLocation = 1;
                     previousLocation = facingLocation;
                     checkLocation = nextLocation;
                     
