@@ -220,18 +220,18 @@ public class PlayerControlEcco : MonoBehaviour
                 Debug.Log("left force ");
                 
                 landingForce.x = landForce * -2 ;
-                eccobody.AddRelativeForce(landingForce);
+                eccobody.AddForce(landingForce);
                 break;
             case 2:
                 Debug.Log("down force ");
                 landingForce.y = landForce * -2;
-                eccobody.AddRelativeForce(landingForce);
+                eccobody.AddForce(landingForce);
                 break;
             case 3:
                 Debug.Log("right force ");
                 
                 landingForce.x = landForce * 2;
-                eccobody.AddRelativeForce(landingForce);
+                eccobody.AddForce(landingForce);
                 break;
         }
         eccobody.drag = linDrag;
