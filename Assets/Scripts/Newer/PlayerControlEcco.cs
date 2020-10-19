@@ -210,8 +210,7 @@ public class PlayerControlEcco : MonoBehaviour
     public void disableGravity()
     {
         Vector2 landingForce = new Vector2(0,0);
-        eccobody.drag = linDrag;
-        eccobody.angularDrag = angleDrag;
+        
         eccobody.gravityScale = 0;
         rotating = false;
         facingLocation = nextLocation;
@@ -219,7 +218,7 @@ public class PlayerControlEcco : MonoBehaviour
         {
             case 1:
                 Debug.Log("left force ");
-                landingForce.y = landForce * -1;
+                
                 landingForce.x = landForce * -2 ;
                 eccobody.AddRelativeForce(landingForce);
                 break;
@@ -230,14 +229,15 @@ public class PlayerControlEcco : MonoBehaviour
                 break;
             case 3:
                 Debug.Log("right force ");
-                landingForce.y = landForce * -1;
+                
                 landingForce.x = landForce * 2;
                 eccobody.AddRelativeForce(landingForce);
                 break;
         }
+        eccobody.drag = linDrag;
+        eccobody.angularDrag = angleDrag;
 
-
-                inAir = false;
+        inAir = false;
         espritecontrol.endJump();
     }
 
