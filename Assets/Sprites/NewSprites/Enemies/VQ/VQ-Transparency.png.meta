@@ -1,0 +1,956 @@
+fileFormatVersion: 2
+guid: 03c88a1fa6226ea42a72e442d0edb86f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2402515142705032867
+    second: VQ-Transparency_0
+  - first:
+      213: 2413520025530888580
+    second: VQ-Transparency_1
+  - first:
+      213: -1182725553743207500
+    second: VQ-Transparency_2
+  - first:
+      213: 1152636626944347854
+    second: VQ-Transparency_3
+  - first:
+      213: 3445252904646440477
+    second: VQ-Transparency_4
+  - first:
+      213: -181026622240853075
+    second: VQ-Transparency_5
+  - first:
+      213: -1298801335722464380
+    second: VQ-Transparency_6
+  - first:
+      213: 7473588166018331539
+    second: VQ-Transparency_7
+  - first:
+      213: 1292955822318420880
+    second: VQ-Transparency_8
+  - first:
+      213: 1900678060245930462
+    second: VQ-Transparency_9
+  - first:
+      213: 4409715740487348558
+    second: VQ-Transparency_10
+  - first:
+      213: 4487946653512502112
+    second: VQ-Transparency_11
+  - first:
+      213: 5030760257347843589
+    second: VQ-Transparency_12
+  - first:
+      213: 6095633744606357166
+    second: VQ-Transparency_13
+  - first:
+      213: -3675901943391371140
+    second: VQ-Transparency_14
+  - first:
+      213: 7950900368314350255
+    second: VQ-Transparency_15
+  - first:
+      213: 5376528754420428457
+    second: VQ-Transparency_16
+  - first:
+      213: 274757290104389678
+    second: VQ-Transparency_17
+  - first:
+      213: 5601566319782096531
+    second: VQ-Transparency_18
+  - first:
+      213: 2187717067052375060
+    second: VQ-Transparency_19
+  - first:
+      213: -4280058870798216666
+    second: VQ-Transparency_20
+  - first:
+      213: 9088736629943206427
+    second: VQ-Transparency_21
+  - first:
+      213: 1668775261586176469
+    second: VQ-Transparency_22
+  - first:
+      213: -7058377051856537168
+    second: VQ-Transparency_23
+  - first:
+      213: -6658155464738091950
+    second: VQ-Transparency_24
+  - first:
+      213: 7661670204275428550
+    second: VQ-Transparency_25
+  - first:
+      213: -6755139136279571483
+    second: VQ-Transparency_26
+  - first:
+      213: 3449720194138915973
+    second: VQ-Transparency_27
+  - first:
+      213: -943832078502705567
+    second: VQ-Transparency_28
+  - first:
+      213: 6831535819972549691
+    second: VQ-Transparency_29
+  - first:
+      213: -6089632425834119147
+    second: VQ-Transparency_30
+  - first:
+      213: -2771994838315831995
+    second: VQ-Transparency_31
+  - first:
+      213: 8076008110186547719
+    second: VQ-Transparency_32
+  - first:
+      213: 6480361920467807075
+    second: VQ-Transparency_33
+  - first:
+      213: 7337123439071585189
+    second: VQ-Transparency_34
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VQ-Transparency_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 81
+        width: 85
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51d19fe43d88aed0800000000000000
+      internalID: -2402515142705032867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VQ-Transparency_1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 78
+        width: 176
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4817f040dab8e7120800000000000000
+      internalID: 2413520025530888580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VQ-Transparency_2
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 34
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3eb5e006d169fe0800000000000000
+      internalID: -1182725553743207500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VQ-Transparency_3
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 34
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece4f10c7ecfeff00800000000000000
+      internalID: 1152636626944347854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VQ-Transparency_4
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 34
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1675d6534fffcf20800000000000000
+      internalID: 3445252904646440477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VQ-Transparency_5
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 34
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3f1760f3ddc7df0800000000000000
+      internalID: -181026622240853075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VQ-Transparency_6
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ba576011bb9fde0800000000000000
+      internalID: -1298801335722464380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VQ-Transparency_7
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393f51917d487b760800000000000000
+      internalID: 7473588166018331539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VQ-Transparency_8
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0930093587081f110800000000000000
+      internalID: 1292955822318420880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VQ-Transparency_9
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1565520a0906a10800000000000000
+      internalID: 1900678060245930462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VQ-Transparency_10
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4172303a15723d30800000000000000
+      internalID: 4409715740487348558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VQ-Transparency_11
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 10
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b048504b3684e30800000000000000
+      internalID: 4487946653512502112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VQ-Transparency_12
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 10
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506fe59ccc9d0d540800000000000000
+      internalID: 5030760257347843589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VQ-Transparency_13
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 10
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6652c389a089450800000000000000
+      internalID: 6095633744606357166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VQ-Transparency_14
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 10
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c704df288a29cfcc0800000000000000
+      internalID: -3675901943391371140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VQ-Transparency_15
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa36e162c5475e60800000000000000
+      internalID: 7950900368314350255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VQ-Transparency_16
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae27e38a644d9a40800000000000000
+      internalID: 5376528754420428457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VQ-Transparency_17
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e200f14bc4220d300800000000000000
+      internalID: 274757290104389678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VQ-Transparency_18
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e6764b3e2ccbd40800000000000000
+      internalID: 5601566319782096531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VQ-Transparency_19
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c57bad4155c5e10800000000000000
+      internalID: 2187717067052375060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VQ-Transparency_20
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 10
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622105c322d2a94c0800000000000000
+      internalID: -4280058870798216666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VQ-Transparency_21
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1288dc8fcda12e70800000000000000
+      internalID: 9088736629943206427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VQ-Transparency_22
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9bdc4424ea82710800000000000000
+      internalID: 1668775261586176469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VQ-Transparency_23
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 10
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9725dd77b9b0e90800000000000000
+      internalID: -7058377051856537168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VQ-Transparency_24
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25cc5f891ea7993a0800000000000000
+      internalID: -6658155464738091950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VQ-Transparency_25
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc08002578b35a60800000000000000
+      internalID: 7661670204275428550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VQ-Transparency_26
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 10
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e397bdeebce042a0800000000000000
+      internalID: -6755139136279571483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VQ-Transparency_27
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584442a3d3edfdf20800000000000000
+      internalID: 3449720194138915973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VQ-Transparency_28
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 10
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1664a39a9b5d6e2f0800000000000000
+      internalID: -943832078502705567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VQ-Transparency_29
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c12db12ad7ece50800000000000000
+      internalID: 6831535819972549691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VQ-Transparency_30
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510057da2974d7ba0800000000000000
+      internalID: -6089632425834119147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VQ-Transparency_31
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 10
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54de7f69165e789d0800000000000000
+      internalID: -2771994838315831995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VQ-Transparency_32
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 10
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ac7d2769eb31070800000000000000
+      internalID: 8076008110186547719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VQ-Transparency_33
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ba37d05dedee950800000000000000
+      internalID: 6480361920467807075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VQ-Transparency_34
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 10
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3ed03e4e2b2d560800000000000000
+      internalID: 7337123439071585189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

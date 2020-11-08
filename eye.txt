@@ -1,0 +1,9 @@
+Left Eye
+X
+-2 to -1.8
+
+Y
+-1.18 -1.5
+
+Right Eye
+X 1.8 to 2

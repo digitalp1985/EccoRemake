@@ -15,7 +15,7 @@ public class WaterInstance : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            WaterManager.instance.leftWater();
+            WaterManager.instance.enterWater();
         }
     }
 
@@ -23,7 +23,7 @@ public class WaterInstance : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            WaterManager.instance.enterWater();
+            WaterManager.instance.leftWater();
         }
     }
 }
